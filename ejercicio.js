@@ -10,3 +10,4 @@ function saludar(nombre) {
   
   console.log(saludar("Daniel Felipe Rivas"));
   
+  console.log([1, 2, 3, 4].concat([5, 6, 7, 8]));
