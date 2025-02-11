@@ -14,3 +14,14 @@ function saludar(nombre) {
 
 const resultado = 1===1 ? "Sí, son iguales" : "No, no son iguales";
 console.log(resultado);
+
+switch (1) {
+    case 1:
+        console.log("Uno");
+        break;
+    case 2:
+        console.log("Dos");
+        break;
+    default:
+        console.log("No es ni uno ni dos");
+}
