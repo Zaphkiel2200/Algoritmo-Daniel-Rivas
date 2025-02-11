@@ -11,3 +11,6 @@ function saludar(nombre) {
   console.log(saludar("Daniel Felipe Rivas"));
   
   console.log([1, 2, 3, 4].concat([5, 6, 7, 8]));
+
+const resultado = 1===1 ? "Sí, son iguales" : "No, no son iguales";
+console.log(resultado);
