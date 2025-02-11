@@ -25,3 +25,12 @@ switch (1) {
     default:
         console.log("No es ni uno ni dos");
 }
+
+for (let i = 0; i < 10; i++) {
+    console.log(i);
+    if (i === 5) {
+        continue
+    }
+
+    console.log("Llegué al final");
+}
